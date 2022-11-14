@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background-color: #22313F;
+}
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: #6C6F7D;
+  margin: 0;
+}
+
+p {
+  color: #8b8e9c;
+}

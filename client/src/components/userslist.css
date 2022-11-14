@@ -1,0 +1,102 @@
+.users-list {
+    width: 100%;
+    height: 20rem;  
+    padding: 0; 
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.title {
+    color: #abaebd;
+    padding-bottom: 1rem;
+}
+
+label {
+    padding: 0 0.4rem 0 0.4rem;
+    color: #8b8e9c;
+}
+
+.add-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.checkbox-form {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid #699969;
+    padding: 5px 10px ;
+    font-size: 1rem;
+    border-radius: 10px;
+    outline: none;
+    color: #abaebd;
+}
+  
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 1rem 0 1rem;
+}
+
+li {
+    width: 20rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #8b8e9c;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+
+.create-button {
+	background: none;
+	color: #699969;
+	border: 1px solid #548554;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem 0 1rem 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    font-size: 1.5rem;
+}
+
+.update-button {
+	background: none;
+	color: #699969;
+	border: none;
+    padding: 1rem 0 1rem 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    font-size: 1.5rem;
+}
+
+.delete-button {
+    background: none;
+    color: #996969;
+    border: none;
+    padding-bottom: 1rem;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 1.5rem;
+}
